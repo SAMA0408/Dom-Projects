@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events </title>
+  <link rel="icon" href="./img/circle-dot-solid.svg">
+
+
+  <script src="https://kit.fontawesome.com/78f50e1103.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/78f50e1103.js" crossorigin="anonymous"></script>
+
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <main id="container__input">
+      <h2>Hacktivity TOWN REGISTRATION</h2>
+      <form id="form">
+        <div class="form-inputs">
+          <div class="form-control">
+            <label for="v1">User Name:</label>
+            <input type="text" id="input1" placeholder="" />
+          </div>
+          <div class="form-inputs">
+            <div class="form-control">
+              <label for="v2">Password</label>
+              <input  type="text" id="input2" placeholder="" />
+            </div>
+          </div>
+         <button 
+         type="submit"
+          onMouseOver="evMouse(1)"
+          onDblClick="evMouse(2)"
+          onMouseOut="evMouse(3)"
+          onClick="evMouse(4)"
+          >
+          Create a HackerOne account.
+        </button>
+      </form>
+      <div class="form-control" id="resultado">
+        <label for="inputResult">Learn more about HackerOne</label>
+      </div>
+    </main>
+  </div>
+  <footer class="container__footer">
+    <p>Hack For Good <a class="container--link"
+        href="http://www.linkedin.com/in/sahil-malik-57847b249/" target="_blank"
+        rel="noopener noreferrer"> For hackers:</a> - Earn money, learn skills, and attack-proof the internet.
+      </a>
+    </p>
+    <p style="text-align: center;">Repositório Github:
+      <a href="https://github.com/SAMA0408" class="container_footer--github" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+    </p>
+  </footer>
+</body>
+
+</html>
